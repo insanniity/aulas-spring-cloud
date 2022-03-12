@@ -1,0 +1,4 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+#  packages-to-scan: br.com.insannity.transactionBFF.controllers
