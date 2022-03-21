@@ -1,20 +1,14 @@
-package br.com.insannity.limitessvc.entities;
+package br.com.insannity.transactionBFF.dtos;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.*;
 import java.math.BigDecimal;
 
-
-@Entity
-@Table
 @Data
 @EqualsAndHashCode(of = "id")
 public class LimiteDiario {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long agencia;
     private Long conta;
